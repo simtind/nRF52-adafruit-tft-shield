@@ -1,0 +1,135 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="13" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="Drivers/SPI.cpp" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="385" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="thumb_crt0.s" useHWbreakpoint="false"/>
+  <Exceptions set="HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="nRF51" radix="16" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="nRF52832" radix="16" sizeText="" addressText="0x2000ff70"/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="nRF51" radix="16" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="nRF52832" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="nRF51" radix="16" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="nRF52832" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="nRF51" radix="16" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="nRF52832" radix="16" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="Drivers"/>
+  <ProjectSessionItem path="Drivers;Drivers"/>
+  <ProjectSessionItem path="Drivers;Drivers;CMSIS Files"/>
+  <ProjectSessionItem path="Drivers;Drivers;Drivers"/>
+  <ProjectSessionItem path="Drivers;Drivers;Source Files"/>
+  <ProjectSessionItem path="Drivers;nRF51"/>
+  <ProjectSessionItem path="Drivers;nRF51;CMSIS Files"/>
+  <ProjectSessionItem path="Drivers;nRF51;System Files"/>
+  <ProjectSessionItem path="Drivers;nRF52832"/>
+  <ProjectSessionItem path="Drivers;nRF52832;CMSIS Files"/>
+  <ProjectSessionItem path="Drivers;nRF52832;Drivers"/>
+  <ProjectSessionItem path="Drivers;nRF52832;Drivers;Modules"/>
+  <ProjectSessionItem path="Drivers;nRF52832;Drivers;Modules;SeeSaw"/>
+  <ProjectSessionItem path="Drivers;nRF52832;Drivers;Peripherals"/>
+  <ProjectSessionItem path="Drivers;nRF52832;RTT Files"/>
+  <ProjectSessionItem path="Drivers;nRF52832;Source Files"/>
+  <ProjectSessionItem path="Drivers;nRF52832;System Files"/>
+  <ProjectSessionItem path="Drivers;nRF52832;Utilities"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal;SPI0/EVENTS_READY;SPI0/INTENSET;SPI0/INTENCLR;SPI0/ENABLE;SPI0/PSELSCK;SPI0/PSELMOSI;SPI0/PSELMISO;SPI0/RXD;SPI0/TXD;SPI0/FREQUENCY;SPI0/CONFIG;SPI0/POWER" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context;SPI0;SPI0/FREQUENCY;SPI0/CONFIG;SPI0/POWER" name="nRF51" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal;TWIM1/TASKS_STARTRX;TWIM1/TASKS_STARTTX;TWIM1/TASKS_STOP;TWIM1/TASKS_SUSPEND;TWIM1/TASKS_RESUME;TWIM1/EVENTS_STOPPED;TWIM1/EVENTS_ERROR;TWIM1/EVENTS_SUSPENDED;TWIM1/EVENTS_RXSTARTED;TWIM1/EVENTS_TXSTARTED;TWIM1/EVENTS_LASTRX;TWIM1/EVENTS_LASTTX;TWIM1/SHORTS;TWIM1/INTEN;TWIM1/INTENSET;TWIM1/INTENCLR;TWIM1/ERRORSRC;TWIM1/ENABLE;TWIM1/FREQUENCY;TWIM1/ADDRESS;TWIM1/PSEL.SCL;TWIM1/PSEL.SDA;TWIM1/RXD.PTR;TWIM1/RXD.MAXCNT;TWIM1/RXD.AMOUNT;TWIM1/RXD.LIST;TWIM1/TXD.PTR;TWIM1/TXD.MAXCNT;TWIM1/TXD.AMOUNT;TWIM1/TXD.LIST" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context;TWIM1;TWIM1/SHORTS;TWIM1/ERRORSRC;TWIM1/TXD.PTR" name="nRF52832" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="nRF51" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="nRF52832" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="nRF51" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="nRF52832" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="nRF51" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="nRF52832" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="312" useTextEdit="1" useBinaryEdit="0" left="0" path="nRF/CMSIS/Device/Include/nrf52.h" selected="0" top="293" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="111" useTextEdit="1" useBinaryEdit="0" left="0" path="main.cpp" selected="1" top="88" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="65" useTextEdit="1" useBinaryEdit="0" left="0" path="nRF/CMSIS/Device/Include/nrf.h" selected="0" top="45" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="137" useTextEdit="1" useBinaryEdit="0" left="0" path="CMSIS_4/CMSIS/Include/core_cm0.h" selected="0" top="108" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="102" useTextEdit="1" useBinaryEdit="0" left="0" path="nRF/CMSIS/Device/Source/system_nrf52.c" selected="0" top="82" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="main.c" selected="0" top="45" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="456" useTextEdit="1" useBinaryEdit="0" left="0" path="nRF/CMSIS/Device/Include/nrf51.h" selected="0" top="440" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="40" useTextEdit="1" useBinaryEdit="0" left="0" path="C:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/arm-none-eabi/include/c++/8.2.1/cstdlib" selected="0" top="8" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="75" useTextEdit="1" useBinaryEdit="0" left="0" path="nRF/Source/ses_nrf51_Vectors.s" selected="0" top="50" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="13" y="157" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Peripherals/TWI.cpp" selected="0" top="166" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="66" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Peripherals/TWI.h" selected="0" top="44" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="17" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/MAG3110.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="98" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/SeeSaw.h" selected="0" top="81" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="24" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/SeeSaw.cpp" selected="0" top="7" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="6" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/DAC.cpp" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/DAC.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="8" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/Encoder.cpp" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="2" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/Encoder.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="9" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/KeyPad.cpp" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="10" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/Timer.cpp" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="11" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/SerIO.cpp" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="2" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/SerIO.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="2" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/Timer.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="9" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/Touch.cpp" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="2" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/Touch.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="8" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/NeoPixel.cpp" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="32" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/ADC.h" selected="0" top="10" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="2" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/EEPROM.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/EEPROM.cpp" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="2" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/KeyPad.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="2" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/NeoPixel.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="2" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/GPIO.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/SubModule.cpp" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="28" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/SubModule.h" selected="0" top="4" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="8" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/ADC.cpp" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="28" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/PWM.cpp" selected="0" top="7" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="17" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/GPIO.cpp" selected="0" top="15" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/Interrupt.cpp" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="14" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/Interrupt.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="21" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/SeeSaw/PWM.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="6" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Peripherals/Interrupt.cpp" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="384" useTextEdit="1" useBinaryEdit="0" left="0" path="thumb_crt0.s" selected="0" top="365" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="51" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Utilities/delay.h" selected="0" top="51" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="22" y="20" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/Adafruit_TFTShield18.h" selected="0" top="0" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="12" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Modules/Adafruit_TFTShield18.cpp" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="10" y="134" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Peripherals/SPI.cpp" selected="0" top="122" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="45" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Peripherals/TWIM.h" selected="0" top="33" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="163" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Peripherals/TWIM.cpp" selected="0" top="156" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/Peripherals/SPI.h" selected="0" top="0" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="nRF52832" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/simti/Documents/SEGGER Embedded Studio for ARM Projects/Drivers/Drivers/Modules/SeeSaw" debugSearchPath="" autoConnectCapabilities="3711"/>
+</session>
